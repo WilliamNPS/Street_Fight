@@ -1,0 +1,205 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #121E26;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+}
+/*cabeçalho*/
+header{
+    font-family: Tahoma, Verdana, sans-serif;
+
+    min-height: 120px; /*tem aver com a responsividade*/
+    
+}
+
+header h1{
+    color: #F29D35;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-shadow:3px 3px 3px #ffffff20;
+    background-color: black;
+    
+}
+
+header p{
+font-size: 20px;
+color: #fabc02;
+text-align: center;
+background-color: #23282c;
+margin: auto;
+
+padding-top: 10px;
+max-width: 1000px;/*tudo que tem max tem aver com responsividade*/
+   }
+
+nav{
+    font-size: 25px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.425);
+}
+a:active{
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #fabc02;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav:hover{
+background-color: #2d3c49;
+transition-duration: .8s;
+}
+nav>a:hover{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    transition-duration: .8s;
+    }
+
+/*Conteudo*/
+strong{
+    color:#fabc02;
+}
+
+main{
+    background-color: black;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px black;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+main img{
+   
+display: block;
+margin: auto;
+border-radius: 20px;
+}
+
+
+
+
+
+main h1 ,h2{
+    color: #F2C53D;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.438);
+}
+
+main p {
+    font-size: 20px;
+ text-align: center;
+    line-height: 30px;
+}
+
+/*macete do responsividade de video*/
+.video{
+
+
+    margin: 0px -20px 60px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+div>iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 96%;
+}
+
+/*Conteudo secundarios*/
+
+.cronologia{
+    color: orange;
+    text-decoration: none;
+}
+
+.cronologia:hover{
+    background: white;
+    color: #121E26;
+    border-radius: 12px;
+}
+
+aside{
+    background-color: #121E26;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+aside>p{
+    background-color: black;
+    padding: 5px;
+
+}
+
+aside li{
+    font-size: 18px;
+    
+    
+}
+
+aside h3{
+    text-align: center;
+    color: #F29D35;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.582);
+    margin-bottom: 5px;
+    background-color: black;
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.24);
+}
+
+aside >ul{
+list-style-position: inside;
+columns: 2;
+padding: 5px;
+/*o 1f3ae é a fotinha do controle do playstation*/
+list-style-type: '\1F3AE\00a0\00a0';
+}
+
+
+
+
+
+
+/*roda pé*/
+
+
+
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    font-size: 23px;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F29D35;
+
+  }
+footer >a:hover{
+    background-color: white;
+    border-radius: 20px;
+    color:black;
+}
